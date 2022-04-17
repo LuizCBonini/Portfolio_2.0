@@ -1,34 +1,36 @@
 import React from 'react';
-import { IoHomeOutline, IoPersonCircleOutline, IoGitBranchOutline, IoCodeSlash, IoMailOutline } from 'react-icons/io5'
+import { IoHome, IoPersonCircle, IoGitBranch, IoCodeSlash, IoMail } from 'react-icons/io5'
 
 import { HeaderStyle } from './HeaderStyle';
 
 const Header = () => {
     return ( 
         <HeaderStyle>
+
             <a href="#landing">
                 <h2 className="logotype">Luiz Bonini</h2>
             </a>
-
             <div>
                 <nav className="nav-bar">
 
+                    
                     <ul className="menu">
+
                         <li>
                             <a href="#home">
-                                <span><IoHomeOutline/> Início</span>
+                                <span><IoHome/> Início</span>
                             </a>
                         </li>
 
                         <li>
                             <a href="#about">
-                                <span><IoPersonCircleOutline/> Sobre</span>
+                                <span><IoPersonCircle/> Sobre</span>
                             </a>
                         </li>
 
                         <li>
                             <a href="#projects">
-                                <span><IoGitBranchOutline/> Projetos</span>
+                                <span><IoGitBranch/> Projetos</span>
                             </a>
                         </li>
 
@@ -40,7 +42,7 @@ const Header = () => {
 
                         <li>
                             <a href="#contact">
-                                <span><IoMailOutline/> Contato</span>
+                                <span><IoMail/> Contato</span>
                             </a>
                         </li>
 
