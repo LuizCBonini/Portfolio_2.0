@@ -5,7 +5,7 @@ export const HeaderStyle = styled.div`
     width: 100%;
     padding: 1.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-itens: center;
 
 
