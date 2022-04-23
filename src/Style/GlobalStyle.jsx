@@ -36,6 +36,7 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         font-family: 'Poppins', sans-serif;
+        background-color: var(--cll-body);
     }
 
     a {
