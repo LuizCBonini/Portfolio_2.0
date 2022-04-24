@@ -6,7 +6,7 @@ import { ButtonStyled } from "./ButtonStyle";
 const Button = ({link, children}) => {
     return ( 
         <ButtonStyled href={link}>
-            <p>{children}</p>
+            {children}
         </ButtonStyled>
      );
 }

@@ -7,6 +7,7 @@ export const HeaderStyle = styled.div`
     display: flex;
     justify-content: space-around;
     align-itens: center;
+    position: fixed;
 
 
     h2 {

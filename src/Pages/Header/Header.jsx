@@ -7,7 +7,7 @@ const Header = () => {
     return ( 
         <HeaderStyle>
 
-            <a href="#landing">
+            <a href="#home">
                 <h2 className="logotype">Luiz Bonini</h2>
             </a>
             <div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import {IoMail} from 'react-icons/io5'
+import {FiLinkedin, FiGithub} from 'react-icons/fi'
 
 import { LandingStyle } from './LandingStyle';
 import me from '../../assets/img/html-css-js-react-removebg.png'
@@ -8,14 +9,22 @@ import Button from '../../assets/Components/Button';
 
 const Landing = () => {
     return ( 
-        <LandingStyle>
+        <LandingStyle id='home'>
+
 
             <div className='hello'>
                 <h3>oi, eu sou o</h3>
                 <h1><span>Luiz</span> Bonini</h1>
                 <p>Sou um <span>desenvolvedor Front-End</span>, criador de códigos de qualidade seguindo o <span>Clean Code</span>, utilizando <span>JavaScript</span>, <span>React</span>, <span>Photoshop</span> e noções de <span>SEO</span>.</p>
 
-                <Button link='https://github.com/LuizCBonini'>Meu contato<IoMail/></Button>
+                <Button link='mailto:lc.bonini13@gmail.com'>Meu contato <IoMail/></Button>
+
+                <div className="social-content">
+                    <a className="social-media" href="https://www.linkedin.com/in/dev-luiz-carlos/" target='_blank' rel="noreferrer"><FiLinkedin/></a>
+                    
+                    <a className="social-media" href="https://github.com/LuizCBonini" target='_blank' rel="noreferrer"><FiGithub/></a>
+                </div>
+                
             </div>
 
             <svg className="home-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">

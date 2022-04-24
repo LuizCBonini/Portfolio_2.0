@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
 
         --ff-body: 'Poppins', sans-serif;
         
-        --fw-titles: 800;
+        --fw-titles: 600;
         --fw-text: 400;
 
         --cll-hue: 250;
@@ -37,6 +37,21 @@ const GlobalStyle = createGlobalStyle`
     body {
         font-family: 'Poppins', sans-serif;
         background-color: var(--cll-body);
+        margin: 0 5rem;
+
+        ::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--cll-primary-lighter);
+            }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--cll-primary-alt);
+            border-radius: 10px;
+        }
     }
 
     a {
