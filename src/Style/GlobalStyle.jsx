@@ -36,7 +36,7 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         font-family: 'Poppins', sans-serif;
-        background-color: var(--cll-body);
+        background-color: #fff;
         margin: 0 5rem;
 
         ::-webkit-scrollbar {

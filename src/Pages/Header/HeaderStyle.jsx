@@ -2,12 +2,15 @@ import styled from "styled-components";
 
 export const HeaderStyle = styled.div`
 
-    width: 100%;
+    width: 88%;
     padding: 1.5rem;
     display: flex;
     justify-content: space-around;
     align-itens: center;
     position: fixed;
+    backdrop-filter: blur(4px);
+    border-bottom: 2px solid var(--cll-primary);
+    z-index: 3;
 
 
     h2 {
