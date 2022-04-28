@@ -4,6 +4,7 @@ import Landing from '../Pages/Landing/Lading';
 import About from '../Pages/About/About';
 
 import { FullPagesStyle } from './FullPagesStyle';
+import Projects from '../Pages/Projects/Projects';
 
 const FullPages = () => {
     return ( 
@@ -11,6 +12,7 @@ const FullPages = () => {
         <Header/>
         <Landing/>
         <About/>
+        <Projects/>
     </FullPagesStyle> );
 }
  

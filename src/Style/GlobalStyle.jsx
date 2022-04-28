@@ -11,8 +11,7 @@ const GlobalStyle = createGlobalStyle`
 
         --ff-body: 'Poppins', sans-serif;
         
-        --fw-titles: 600;
-        --fw-text: 400;
+        --fw-text: 600;
 
         --cll-hue: 250;
         --cll-primary: hsl(var(--cll-hue), 69%, 61%);
@@ -37,7 +36,7 @@ const GlobalStyle = createGlobalStyle`
     body {
         font-family: 'Poppins', sans-serif;
         background-color: #fff;
-        margin: 0 5rem;
+        margin: 0 0 0 5rem;
 
         ::-webkit-scrollbar {
             width: 7px;

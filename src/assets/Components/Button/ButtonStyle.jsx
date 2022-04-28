@@ -4,7 +4,7 @@ export const ButtonStyled = styled.a`
     color: white;
     height: 2.5rem;
     width: 10rem;
-    border-radius: 20px;
+    border-radius: 1rem;
     font-weight: 600;
     background-color: var(--cll-primary);
     padding: .5rem;

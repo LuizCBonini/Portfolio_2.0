@@ -5,7 +5,7 @@ import {FiLinkedin, FiGithub} from 'react-icons/fi'
 import { LandingStyle } from './LandingStyle';
 import me from '../../assets/img/html-css-js-react-removebg.png'
 
-import Button from '../../assets/Components/Button';
+import Button from '../../assets/Components/Button/Button';
 
 const Landing = () => {
     return ( 

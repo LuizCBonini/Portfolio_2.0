@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const LandingStyle = styled.div`
 
-    height: 40rem;
     margin: 0 auto;
+    padding-top: 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
