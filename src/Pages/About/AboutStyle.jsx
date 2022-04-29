@@ -1,41 +1,15 @@
 import styled from "styled-components";
 
 export const AboutStyle = styled.section`
-    
-    padding-top: 6rem;
 
     
-    >div {
-        &:before {
-            content: "";
-            position: absolute;
-            background: #333;
-            left: 0;
-            width: 50px;
-            height: 1px;
-            left: 10px;
-            top: 42.5rem;
-        }
-
-        span {
-            display: block;
-            position: relative;
-            padding: 0 0 20px 65px;
-            font-size: 12px;
-            color: #333;
-        }
-
-        h2 {
-            font-weight: var(--fw-text);
-            color: var(--cll-primary-alt);
-        }
-    }
+    padding-top: var(--pt-section);
 
     section {
 
         display: grid;
         gap: 1rem;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
 
 
         >div.video {
@@ -48,15 +22,15 @@ export const AboutStyle = styled.section`
 
             video {
                 position: absolute;
-                width: 90%;
-                height: 75%;
+                width: 70%;
+                height: 95%;
                 object-fit: cover;
             }
 
             img {
                 position: absolute;
-                width: 100%;
-                height: 80%;
+                width: 80%;
+                height: 100%;
                 z-index: 2;
                 user-select: none;
                 mix-blend-mode: screen;
@@ -66,7 +40,7 @@ export const AboutStyle = styled.section`
         >div.content {
 
             box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.11);
-            width: 30rem;
+            width: 80%;
             padding: 2rem;
             border-radius: 1rem;
 
@@ -78,8 +52,9 @@ export const AboutStyle = styled.section`
 
             p{
 
-                line-height: 1.6rem;
+                line-height: 2.5rem;
                 margin-bottom: 1rem;
+                font-size: var(--fs-text);
 
                 span {
                     color: var(--cll-primary);

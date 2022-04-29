@@ -7,9 +7,14 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
     :root {
         scroll-behavior: smooth;
-        font-size: 62.5%
+        font-size: 62.5%;
 
         --ff-body: 'Poppins', sans-serif;
+
+        --pt-section: 3rem;
+
+        --fs-title: 2.5rem;
+        --fs-text: 1.5rem;
         
         --fw-text: 600;
 
@@ -51,6 +56,10 @@ const GlobalStyle = createGlobalStyle`
             background: var(--cll-primary-alt);
             border-radius: 10px;
         }
+    }
+
+    h1, h2, h3 {
+        font-size: var(--fs-title);
     }
 
     a {

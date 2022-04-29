@@ -3,6 +3,8 @@ import { AboutStyle } from './AboutStyle';
 
 import Button from '../../assets/Components/Button/Button';
 
+import SectionTitle from '../../assets/Components/SectionTitle/SectionTitle';
+
 import video from '../../assets/img/maos_programando.mp4'
 import mask from '../../assets/img/mask.jpg'
 import CV from '../../assets/Luiz Carlos Bonini-dev C.V.pdf'
@@ -10,10 +12,8 @@ import CV from '../../assets/Luiz Carlos Bonini-dev C.V.pdf'
 const About = () => {
     return ( 
         <AboutStyle id='about'>
-            <div>
-                <span>Um pouco sobre mim</span>
-                <h2>Sobre</h2>
-            </div>
+            
+            <SectionTitle subTitle={"Um pouco mais sobre mim"} Title={"Sobre"}/>
 
             <section>
                 <div className='video'>

@@ -3,17 +3,17 @@ import styled from 'styled-components';
 export const LandingStyle = styled.div`
 
     margin: 0 auto;
-    padding-top: 6rem;
+    padding-top: 10rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     align-items: center;
     
     .home-blob {
-        width: 30rem;
+        width: 50rem;
 
 
         .home__blob-img {
-            width: 8rem;
+            width: 13rem;
         }
     }
 
@@ -23,19 +23,19 @@ export const LandingStyle = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 30rem;
+        width: 50rem;
 
         h3 {
-            font-size: 2rem;
+            font-size: 2.7rem;
         }
 
         h1 {
-            font-size: 3rem;
+            font-size: 5rem;
         }
 
         p {
-            font-size: 1.3rem;
-            font-weight: 600;
+            font-size: 2rem;
+            font-weight: var(--fw-text);
         }
 
         span {
@@ -53,8 +53,8 @@ export const LandingStyle = styled.div`
 
                 
                 svg {
-                    width: 2rem;
-                    height: 2rem;
+                    width: 3.5rem;
+                    height: 3.5rem;
                 }
 
                 &:hover {
