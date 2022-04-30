@@ -9,11 +9,11 @@ const Card = ({CardTitle, CardDescription, CardImg}) => {
 
         <CardStyle image={CardImg}>
 
-            <section className='teste'>
+            <div className='card-content'>
                 <h2>{CardTitle}</h2>
                 <p>{CardDescription}</p>
                 <Button>Saiba Mais</Button>
-            </section>
+            </div>
             
         </CardStyle>
 

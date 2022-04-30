@@ -13,10 +13,12 @@ const Projects = () => {
     return ( 
         <ProjectStyle id='projects'>
             <SectionTitle subTitle={"Meus trabalhos"} Title={"Projetos"}/>
+
             <Card 
-            CardTitle={"Teste de card"} 
-            CardDescription={"Hi Kevin, It'll be great if you can i wold be like animal unstopobaale the game o the year is ssjdk make video related to"}
+            CardTitle={"Healthy Food"} 
+            CardDescription={"Promovendo o compartilhamento de receitas saudáveis"}
             CardImg={`${cardImage}`}/>
+
         </ProjectStyle>
      );
 }
