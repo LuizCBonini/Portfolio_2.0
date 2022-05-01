@@ -18,14 +18,14 @@ export const CardStyle = styled.div`
     div.card-content {
         
         --padding: 2.5rem;
-        background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 1));
+        background: linear-gradient(hsl(0 0% 0% / 0),hsl(0 0% 0% / 0.3) 10%, hsl(0 0% 0% / 1));
         padding: var(--padding);
 
         transform: translateY(65%);
         transition: transform 500ms ease;
 
         h2 {
-            color: var(--cll-primary);
+            color: #fff;
             position: relative;
             width: max-content;
 
