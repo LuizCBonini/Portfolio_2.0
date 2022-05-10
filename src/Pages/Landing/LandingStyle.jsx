@@ -11,6 +11,9 @@ export const LandingStyle = styled.div`
     .home-blob {
         width: 50rem;
 
+        path {
+            fill: var(--cll-primary);
+        }
 
         .home__blob-img {
             width: 13rem;

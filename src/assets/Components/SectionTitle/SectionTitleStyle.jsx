@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const SectionTitleStyle = styled.div`
-    padding-top: 6rem;
+    
+    margin: 6rem 0 0 5rem;
 
     &:before {
         content: "";
         position: absolute;
         background: #333;
-        left: 0;
+        left: 10;
         width: 5rem;
         height: 0.1rem;
         margin-top: 1rem;

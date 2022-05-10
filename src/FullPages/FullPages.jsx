@@ -6,6 +6,7 @@ import About from '../Pages/About/About';
 import { FullPagesStyle } from './FullPagesStyle';
 import Projects from '../Pages/Projects/Projects';
 import Techs from '../Pages/Techs/Techs';
+import Contact from '../Pages/Contact/Contact';
 
 const FullPages = () => {
     return ( 
@@ -15,6 +16,7 @@ const FullPages = () => {
         <About/>
         <Projects/>
         <Techs/>
+        <Contact/>
     </FullPagesStyle> );
 }
  

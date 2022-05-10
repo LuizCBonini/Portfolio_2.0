@@ -41,7 +41,6 @@ const GlobalStyle = createGlobalStyle`
     body {
         font-family: 'Poppins', sans-serif;
         background-color: #fff;
-        margin: 0 0 0 5rem;
 
         ::-webkit-scrollbar {
             width: 7px;

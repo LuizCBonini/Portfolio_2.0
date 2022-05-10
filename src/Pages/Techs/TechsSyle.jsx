@@ -13,6 +13,9 @@ export const TechStyle = styled.div`
             margin: 2rem 10rem 2rem 2rem;
             width: 50%;
             border-radius: 2rem;
+            backdrop-filter: blur(4px);
+            position: absolute;
+            
 
             display: flex;
 
@@ -29,9 +32,11 @@ export const TechStyle = styled.div`
 
                     color: var(--cll-primary);
                     margin: 3rem;
+                    
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    cursor: pointer;
 
                     svg {
                         font-size: 3rem;
@@ -59,6 +64,26 @@ export const TechStyle = styled.div`
             right: 0;
             bottom: 0;
             pointer-events: none;
+        }
+
+        >svg {
+    
+            position: absolute;
+            top: 185.2rem;
+            z-index: -1;
+            pointer-events: none;
+        
+            .bg1 {
+                fill: var(--cll-primary-more-lighter);
+            }
+    
+            .bg2 {
+                fill: var(--cll-primary-lighter);
+            }
+    
+            .bg3 {
+                fill: var(--cll-primary);
+            }
         }
     }
 

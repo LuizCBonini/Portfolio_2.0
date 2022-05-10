@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderStyle = styled.div`
 
-    width: 88%;
+    width: 100%;
     padding: 2rem;
     display: flex;
     justify-content: space-around;
