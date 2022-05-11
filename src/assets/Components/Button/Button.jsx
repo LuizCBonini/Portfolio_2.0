@@ -5,7 +5,7 @@ import { ButtonStyled } from "./ButtonStyle";
 
 const Button = ({link, children}) => {
     return ( 
-        <ButtonStyled href={link}>
+        <ButtonStyled href={link} target='_blank' rel="noreferrer">
             {children}
         </ButtonStyled>
      );

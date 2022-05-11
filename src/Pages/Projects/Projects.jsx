@@ -20,12 +20,14 @@ const Projects = () => {
                 <Card
                 CardTitle={"Healthy Food"}
                 CardDescription={"Promovendo o compartilhamento de receitas saudáveis"}
-                CardImg={`${HealthyImage}`}/>
+                CardImg={`${HealthyImage}`}
+                linkGithub={"https://github.com/LuizCBonini/gcb-healthyfood-teste"}/>
 
                 <Card
                 CardTitle={"Chokolatte"}
                 CardDescription={"Site criado para uma empresa fictícia de chocolate"}
-                CardImg={`${ChokoImage}`}/>
+                CardImg={`${ChokoImage}`}
+                linkGithub={"https://github.com/LuizCBonini/Website-Chocolate"}/>
 
                 <Card
                 CardTitle={"Portfólio"}

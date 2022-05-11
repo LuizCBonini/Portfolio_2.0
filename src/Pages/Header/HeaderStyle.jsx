@@ -9,12 +9,12 @@ export const HeaderStyle = styled.div`
     align-itens: center;
     position: fixed;
     backdrop-filter: blur(4px);
-    border-bottom: 0.2rem solid var(--cll-primary);
+    border-bottom: 0.2rem solid var(--cll-primary-alt);
     z-index: 3;
 
 
     h2 {
-        color: var(--cll-primary);
+        color: var(--cll-primary-alt);
         font-size: var(--fs-title);
     }
 
@@ -28,15 +28,14 @@ export const HeaderStyle = styled.div`
             display: flex;
 
             li a span {
-                color: var(--cll-primary);
+                color: var(--cll-primary-alt);
                 margin-left: 1.5rem;
                 font-weight: var(--fw-text);
                 text-transform: uppercase;
                 font-size: var(--fs-text);
                 
                 &:hover {
-                    color: var(--cll-primary-alt);
-                    border-bottom: 2px solid var(--cll-primary-lighter);
+                    border-bottom: 2px solid var(--cll-primary-alt);
                 }
             }
 
