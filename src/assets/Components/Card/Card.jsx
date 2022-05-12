@@ -4,7 +4,7 @@ import { CardStyle } from './CardStyle';
 
 import Button from '../Button/Button'
 
-const Card = ({CardTitle, CardDescription, CardImg, linkGithub}) => {
+const Card = ({CardTitle, CardDescription, CardImg, linkGithub, linkSite}) => {
     return ( 
 
         <CardStyle image={CardImg}>
@@ -12,7 +12,12 @@ const Card = ({CardTitle, CardDescription, CardImg, linkGithub}) => {
             <div className='card-content'>
                 <h2>{CardTitle}</h2>
                 <p>{CardDescription}</p>
-                <Button link={linkGithub}>Repositório</Button>
+
+                <div>
+                    <Button link={linkGithub}>Repositório</Button>
+                    <Button link={linkSite}>Visite o site</Button>
+                </div>
+                
             </div>
             
         </CardStyle>

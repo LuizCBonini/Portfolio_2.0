@@ -52,12 +52,17 @@ export const CardStyle = styled.div`
             padding: 1.5rem 0;
         }
 
-        a {
-            width: 10.5rem;
-            height: 2.5rem;
-            font-size: var(--fs-text);
-            border-radius: .3rem;
-            cursor: pointer;
+        >div {
+            display: flex;
+
+            a {
+                margin-right: 1rem;
+                width: 9rem;
+                height: 2.5rem;
+                font-size: 1.2rem;
+                border-radius: .3rem;
+                cursor: pointer;
+            }
         }
     }
 
