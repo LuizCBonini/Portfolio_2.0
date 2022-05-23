@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const LandingStyle = styled.div`
+export const LandingStyle = styled.section`
 
     margin: 0 auto;
     padding-top: 10rem;

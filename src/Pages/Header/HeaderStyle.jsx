@@ -80,7 +80,7 @@ export const HeaderStyle = styled.header`
         }
 
         ul.menu.active {
-            transform: translateX(0);
+            transform: translateX(0%);
         }
         
         >div .nav-bar {

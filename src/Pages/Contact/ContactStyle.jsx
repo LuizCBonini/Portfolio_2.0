@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContactStyle = styled.div`
+export const ContactStyle = styled.section`
     background-color: var(--cll-primary);
     height: 50rem;
 

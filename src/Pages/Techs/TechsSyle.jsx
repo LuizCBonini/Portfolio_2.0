@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TechStyle = styled.div`
+export const TechStyle = styled.section`
     padding-top: var(--pt-section);
     height: 100vh;
 
