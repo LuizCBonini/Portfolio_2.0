@@ -1,12 +1,18 @@
 import React from 'react';
-import {IoMail} from 'react-icons/io5'
+
+import copy from "copy-to-clipboard"
+
 import {FiLinkedin, FiGithub} from 'react-icons/fi'
 
 import { LandingStyle } from './LandingStyle';
 import me from '../../assets/img/html-css-js-react-removebg.png'
 
 const Landing = () => {
-
+ 
+    const copyToClipboard = () => {
+        copy("lc.bonini13@gmail.com");
+        alert('Copiado: lc.bonini13@gmail.com');
+     }
 
     return ( 
         <LandingStyle id='home'>
@@ -28,7 +34,7 @@ const Landing = () => {
                     <p>Sou um <span>desenvolvedor Front-End</span>, criador de códigos de qualidade seguindo o <span>Clean Code</span>, utilizando <span>JavaScript</span>, <span>React</span>, <span>Photoshop</span> e noções de <span>SEO</span>.</p>
                 </span>
 
-                <p>lc.bonini13@gmail.com</p>
+                <p className='email' onClick={copyToClipboard}>lc.bonini13@gmail.com</p>
 
                 <div className="social-content">
                     <a className="social-media" href="https://www.linkedin.com/in/dev-luiz-carlos/" target='_blank' rel="noreferrer"><FiLinkedin/></a>
@@ -40,6 +46,8 @@ const Landing = () => {
 
         </LandingStyle>
      );
+
+
 }
  
 export default Landing;
