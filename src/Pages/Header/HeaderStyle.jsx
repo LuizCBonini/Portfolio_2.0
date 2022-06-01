@@ -58,7 +58,7 @@ export const HeaderStyle = styled.header`
         }
 
         >svg.mobile {
-            color:var(--cll-primary);
+            color:var(--cll-primary-alt);
             display: block;
             cursor: pointer;
         }

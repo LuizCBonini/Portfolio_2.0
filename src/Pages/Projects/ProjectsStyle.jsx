@@ -12,31 +12,11 @@ export const ProjectStyle = styled.section`
             height: 40rem;
             padding: 1rem 4rem;
 
-            /* .swiper-slide {
-                width: 20rem !important;
-            } */
-
             
             .swiper-button-next,
             .swiper-button-prev {
                 color: var(--cll-primary);
                 font-weight: 600;
-                /* background-color: var(--cll-primary-lighter);
-                color: var(--cll-primary);
-                padding: 2rem;
-                border: 1px solid var(--cll-primary);
-                border-radius: 50%;
-
-                &:after {
-                    font-size: 3rem;
-                }
-
-                &:hover {
-                    background-color: var(--cll-primary);
-                    color: var(--cll-primary-alt);
-                    border: 1px solid var(--cll-primary-more-lighter);
-                    transition: 300ms ease;
-                } */
             }
         }
         
