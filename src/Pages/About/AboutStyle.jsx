@@ -63,4 +63,36 @@ export const AboutStyle = styled.section`
             
         }
     }
+
+    @media (max-width: 999px) {
+        section > div.content {
+            h2 {
+                font-size: var(--fs-title-mobile);
+            }
+            p {
+                font-size: var(--fs-text-mobile);
+                line-height: 2rem;
+            }
+
+            a {
+                font-size: 1.3rem;
+                padding: .5rem;
+                
+                height: 3rem;
+                width: 11rem;
+            }
+        }
+    }
+
+    @media (max-width: 499px) {
+        section{
+
+            display: flex;
+            justify-content: center;
+        
+            >div.video{
+                display: none;
+            }
+        }
+    }
 `;

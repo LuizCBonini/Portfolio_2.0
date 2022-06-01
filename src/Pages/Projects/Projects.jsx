@@ -1,4 +1,5 @@
 import React from 'react';
+import {IoInformationCircleOutline} from 'react-icons/io5'
 
 import { ProjectStyle } from './ProjectsStyle';
 
@@ -28,6 +29,8 @@ import EmProduçãoImage from '../../assets/img/Emprodução.png'
 
 
 const Projects = () => {
+
+
     return ( 
         <ProjectStyle id='projects'>
             <SectionTitle subTitle={"Meus trabalhos"} Title={"Projetos"}/>
@@ -35,8 +38,40 @@ const Projects = () => {
             <div className='cards'>
 
                 <Swiper
-                slidesPerView={5}
-                spaceBetween={30}
+                // slidesPerView={4}
+                breakpoints={{
+                    // when window width is >= 300px
+                    300: {
+                      slidesPerView: 1.5,
+                      spaceBetween: 150,
+                    },
+                    // when window width is >= 370px
+                    370: {
+                      slidesPerView: 1.5,
+                      spaceBetween: 150,
+                    },
+                    // when window width is >= 420px
+                    420: {
+                      slidesPerView: 2,
+                      spaceBetween: 210,
+                    },
+                    // when window width is >= 420px
+                    420: {
+                      slidesPerView: 2,
+                      spaceBetween: 210,
+                    },
+                    // when window width is >= 460px
+                    460: {
+                      slidesPerView: 3,
+                      spaceBetween: 150,
+                    },
+                    // when window width is >= 1000px
+                    1000: {
+                      slidesPerView: 4,
+                      spaceBetween: 150,
+                    },
+                  }}
+                // spaceBetween={250}
                 loop={true}
                 loopFillGroupWithBlank={true}
                 navigation={true}
@@ -47,7 +82,7 @@ const Projects = () => {
                     
                     <SwiperSlide>
                         <Card
-                        CardTitle={"Bitcoin ao vivo"}
+                        CardTitle={`Bitcoin ao vivo`}
                         CardDescription={"Com o consumo de uma API, mostra os valores no momento e em datas especificas."}
                         CardImg={`${BtcImage}`}
                         linkGithub={"https://github.com/LuizCBonini/Technical_Test_For_Front_End_Luiz_Bonini"}

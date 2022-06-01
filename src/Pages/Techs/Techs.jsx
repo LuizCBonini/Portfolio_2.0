@@ -70,15 +70,7 @@ const Techs = (BGImage) => {
 {/*                 
                 <img src={BgImage} alt=""/> */}
 
-                <svg viewBox="0 0 1382 641" shapeRendering="geometricPrecision" textRendering="geometricPrecision">
-
-                    <path className="bg1" d="M1390.810046,8.972373C1251.627318,226.933197,531.549841,540.05665,20.678952,662.860276l1370.131094,8.426389v-662.314292Z" transform="matrix(1.892373 0 0 1.594107-644.531835-385.781885)" fill="#a198ff" strokeWidth="2.764"/>
-
-                    <path className="bg2" d="M1390.810046,8.972373C1251.627318,226.933197,531.549841,540.05665,20.678952,662.860276l1370.131094,8.426389v-662.314292Z" transform="matrix(1.471889 0.023095-.022512 1.434735-275.257106-310.918807)" fill="#5b4cff" strokeWidth="2.764"/>
-
-                    <path className="bg3" d="M1390.810046,8.972373C1251.627318,226.933197,531.549841,540.05665,20.678952,662.860276l1370.131094,8.426389v-662.314292Z" transform="matrix(1.414662 0.049017-.059751 1.724449-49.098841-489.044536)" fill="#1802ff" strokeWidth="2.764"/>
-
-                </svg>
+                
             </section>
         </TechStyle>
      );

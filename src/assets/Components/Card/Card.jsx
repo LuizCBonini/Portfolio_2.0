@@ -15,7 +15,7 @@ const Card = ({CardTitle, CardDescription, CardImg, linkGithub, linkSite}) => {
 
                 <div>
                     <Button link={linkGithub}>Repositório</Button>
-                    <Button link={linkSite}>Visite o site</Button>
+                    <Button link={linkSite}>Site</Button>
                 </div>
                 
             </div>

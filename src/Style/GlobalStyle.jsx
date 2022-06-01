@@ -14,7 +14,11 @@ const GlobalStyle = createGlobalStyle`
         --pt-section: 3rem;
 
         --fs-title: 2.5rem;
+        --fs-title-mobile: 1.5rem; 
+
+
         --fs-text: 1.5rem;
+        --fs-text-mobile: 1rem;
         
         --fw-text: 600;
 

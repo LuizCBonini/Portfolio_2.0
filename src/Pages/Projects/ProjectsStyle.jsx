@@ -3,19 +3,25 @@ import styled from "styled-components";
 export const ProjectStyle = styled.section`
 
     padding-top: var(--pt-section);
-    height: 70rem;
+    height: 100vh;
 
     >div.cards {
         display: flex;
-        margin-top: 2rem;
 
         .mySwiper {
             height: 40rem;
-            padding: 4rem;
+            padding: 1rem 4rem;
 
+            /* .swiper-slide {
+                width: 20rem !important;
+            } */
+
+            
             .swiper-button-next,
             .swiper-button-prev {
-                background-color: var(--cll-primary-lighter);
+                color: var(--cll-primary);
+                font-weight: 600;
+                /* background-color: var(--cll-primary-lighter);
                 color: var(--cll-primary);
                 padding: 2rem;
                 border: 1px solid var(--cll-primary);
@@ -30,13 +36,26 @@ export const ProjectStyle = styled.section`
                     color: var(--cll-primary-alt);
                     border: 1px solid var(--cll-primary-more-lighter);
                     transition: 300ms ease;
+                } */
+            }
+        }
+        
+        >div {
+            margin-left: 5rem;
+        }
+    }
+    @media (max-width: 800px) {
+        >div.cards {
+
+            .mySwiper {
+
+                
+                .swiper-button-next,
+                .swiper-button-prev {
+                    display: none;
                 }
             }
         }
-
-        >div {
-            margin-left: 2rem;
-        }
     }
-
+    
 `;
