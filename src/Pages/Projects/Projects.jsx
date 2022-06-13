@@ -41,18 +41,13 @@ const Projects = () => {
                 breakpoints={{
                     // when window width is >= 300px
                     300: {
-                      slidesPerView: 1.5,
-                      spaceBetween: 150,
+                      slidesPerView: 2,
+                      spaceBetween: 70,
                     },
                     // when window width is >= 370px
                     370: {
-                      slidesPerView: 1.5,
-                      spaceBetween: 150,
-                    },
-                    // when window width is >= 420px
-                    420: {
                       slidesPerView: 2,
-                      spaceBetween: 210,
+                      spaceBetween: 70,
                     },
                     // when window width is >= 420px
                     420: {
@@ -103,7 +98,8 @@ const Projects = () => {
                         CardTitle={"Portfólio"}
                         CardDescription={"Meu próprio portfólio, que serviu para aprender muito mais sobre React"}
                         CardImg={`${PortImage}`}
-                        linkGithub={"https://github.com/LuizCBonini/Portfolio_2.0"}/>
+                        linkGithub={"https://github.com/LuizCBonini/Portfolio_2.0"}
+                        linkSite={"https://luiz-bonini.netlify.app/"}/>
                     </SwiperSlide>
 
                     <SwiperSlide>

@@ -42,7 +42,6 @@ const Techs = (BGImage) => {
                         spaceBetween: 100,
                         },
                     }}
-                    // spaceBetween={250}
                     loop={true}
                     loopFillGroupWithBlank={true}
                     navigation={true}

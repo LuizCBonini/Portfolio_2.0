@@ -18,7 +18,6 @@ export const AboutStyle = styled.section`
             min-height: 20rem;
             display: flex;
             justify-content: center;
-            align-itens: center;
 
             video {
                 position: absolute;

@@ -6,9 +6,6 @@ export const LandingStyle = styled.section`
     padding-top: 10rem;
 
     display: flex;
-
-    /* display: grid;
-    grid-template-columns: 50% 50%; */
     align-items: center;
     height:100vh;
     
