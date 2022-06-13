@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<div align="center">
+  
+![Capa](https://github.com/LuizCBonini/Portfolio_2.0/blob/master/src/assets/img/README%20Images/PortfolioCapa.png)
+  
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <a href="https://luiz-bonini.netlify.app/">🔗 Portfólio</a>
+</h1>
 
-## Available Scripts
+<p align="center"> Meu próprio site, para me apresentar e apresentar meus projetos. </p>
 
-In the project directory, you can run:
 
-### `npm start`
+### ✅ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [x] 100% Responsivo
+- [x] Carrossel de cards
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ✅ Demonstração da aplicação
 
-### `npm test`
+Netlify: [Clique aqui](https://luiz-bonini.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 🏠 Página Home
 
-### `npm run build`
+![Início](https://github.com/LuizCBonini/Portfolio_2.0/blob/master/src/assets/img/README%20Images/PortfolioHome.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 📚 Projetos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Projetos](https://github.com/LuizCBonini/Portfolio_2.0/blob/master/src/assets/img/README%20Images/PortfolioProjetos.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 📧 Contato
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Contato](https://github.com/LuizCBonini/Portfolio_2.0/blob/master/src/assets/img/README%20Images/PortfolioContato.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📱 Mobile 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<div display:flex;>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="https://github.com/LuizCBonini/Portfolio_2.0/blob/master/src/assets/img/README%20Images/PortfolioHomeResp.png" width="250px;" alt=""/>
 
-## Learn More
+<img src="https://github.com/LuizCBonini/Portfolio_2.0/blob/master/src/assets/img/README%20Images/PortfolioMenuResp.png" width="250px;" alt=""/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://github.com/LuizCBonini/Portfolio_2.0/blob/master/src/assets/img/README%20Images/PortfolioProjetosResp.png" width="250px;" alt=""/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="https://github.com/LuizCBonini/Portfolio_2.0/blob/master/src/assets/img/README%20Images/PortfolioContatoResp.png" width="250px;" alt=""/>
 
-### Code Splitting
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🛠 Tecnologias
 
-### Analyzing the Bundle Size
+As seguintes ferramentas foram usadas na construção do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [React.js](https://reactjs.org/)
+- [Styled-Components](https://styled-components.com/)
+- [Swiper](Swiperjs.com)
+- [Form Submit](https://formsubmit.co/)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### ✅ Autor
 
-### Advanced Configuration
+<img src="https://github.com/LuizCBonini.png" width="100px;"/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito por Luiz Carlos Bonini, entre em contato!
+<div>
+  <p>lc.bonini13@gmail.com</p>
+    <a href="https://www.linkedin.com/in/dev-luiz-carlos/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+ </div>
