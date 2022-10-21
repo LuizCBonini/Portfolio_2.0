@@ -33,7 +33,6 @@ export const ContactStyle = styled.section`
                 color: var(--cll-primary-lighter);
                 font-size: var(--fs-title);
                 font-weight: var(--fw-text);
-                
             }
 
             input,
