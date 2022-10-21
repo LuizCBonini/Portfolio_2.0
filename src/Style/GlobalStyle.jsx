@@ -2,9 +2,11 @@ import { createGlobalStyle } from "styled-components";
 
 
 
+
 // 1. Utilizarei "font-size: 62.5%" para que assim 10px = 1rem.
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`  
+
     :root {
         scroll-behavior: smooth;
         font-size: 62.5%;

@@ -24,14 +24,16 @@ const About = () => {
                 <div className='content'>
                     <h2>Você já descobriu algo novo sobre si mesmo hoje?</h2>
                     <p>
-                        Estou cursando <span>JavaScript</span> e <span>React</span> por conta própria, iniciei minha trajetória em <span>Front-End</span> a alguns meses e estou aprendendo muito cada dia mais.
+                        Estou estudando <span>React</span> e <span>Next.js</span> por conta própria, iniciei minha trajetória em <span>programação web</span> a <span>mais de um ano</span> e estou aprendendo muito cada dia mais.
                         <br/>
-                        Programação desperta totalmente minhas paixões, e reviveu a curiosidade que me fez aprender <span>Photoshop</span> na adolescência como autodidata.
+                        Atualmente sou <span>Programador Front-end Junior</span> em uma empresa que vem agregado muito ao meu crescimento e aprendizado.
                         <br/>
-                        Toda vez que escrevo uma linha de código em JS, leio um livro ou entendo mais sobre como é ser um desenvolvedor, descubro algo novo em mim também, sinto que estou me conhecendo mais.
+                        Programação desperta totalmente minhas paixões, e reviveu a curiosidade que me fez aprender <span>Photoshop</span> na adolescência como <span>autodidata</span>.
+                        <br/>
+                        Toda vez que escrevo uma linha de código em JS, leio um livro ou entendo mais sobre como é ser um desenvolvedor, descubro algo novo em mim, sinto que estou me conhecendo mais.
                     </p>
 
-                    <Button link={CV}>Download C.V</Button>
+                    <a href={CV} target="_blank"><Button>Download C.V</Button></a>
                 </div>
             </section>
 

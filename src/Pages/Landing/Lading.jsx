@@ -1,21 +1,43 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
-import copy from "copy-to-clipboard"
+// Components:
+import Button from '../../assets/Components/Button/Button'
 
+// Style
+import { LandingStyle } from './LandingStyle';
+
+// Icons:
 import {FiLinkedin, FiGithub} from 'react-icons/fi'
 
-import { LandingStyle } from './LandingStyle';
+// Images:
 import me from '../../assets/img/html-css-js-react-removebg.png'
+import Success from '../../assets/Components/Alerts/SuccessAlert';
 
 const Landing = () => {
- 
+
+    const [showAlert, setShowAlert] = useState(false);
+
+    
+    
     const copyToClipboard = () => {
-        copy("lc.bonini13@gmail.com");
-        alert('Copiado: lc.bonini13@gmail.com');
-     }
+        const copiado = 'lc.bonini13@gmail.com';
+        navigator.clipboard.writeText(copiado);
+        setShowAlert(true)
+    }
+    
+    const setFalseAlert = () => {
+        setShowAlert(false)
+    }
+    
+    useEffect(()=>{
+        setShowAlert(showAlert)
+        if(showAlert == true) setTimeout(setFalseAlert, 2500);
+    })
 
     return ( 
         <LandingStyle id='home'>
+
+            <Success showAlert={showAlert} message="Copiado para área de transferência!"></Success>
 
             <svg className="home-blob" viewBox="0 0 200 200">
                 <mask id="mask0" mask-type="alpha">
@@ -34,7 +56,7 @@ const Landing = () => {
                     <p>Sou um <span>desenvolvedor Front-End</span>, criador de códigos de qualidade seguindo o <span>Clean Code</span>, utilizando <span>JavaScript</span>, <span>React</span>, <span>Photoshop</span> e noções de <span>SEO</span>.</p>
                 </span>
 
-                <p className='email' onClick={copyToClipboard}>lc.bonini13@gmail.com</p>
+                <Button className='email' onPress={copyToClipboard}>lc.bonini13@gmail.com</Button>
 
                 <div className="social-content">
                     <a className="social-media" href="https://www.linkedin.com/in/dev-luiz-carlos/" target='_blank' rel="noreferrer"><FiLinkedin/></a>

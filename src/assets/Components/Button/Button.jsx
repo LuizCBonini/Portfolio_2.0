@@ -3,9 +3,9 @@ import React from 'react';
 
 import { ButtonStyled } from "./ButtonStyle";
 
-const Button = ({link, children}) => {
+const Button = ({children, onPress}) => {
     return ( 
-        <ButtonStyled href={link} target='_blank' rel="noreferrer">
+        <ButtonStyled onClick={onPress}>
             {children}
         </ButtonStyled>
      );

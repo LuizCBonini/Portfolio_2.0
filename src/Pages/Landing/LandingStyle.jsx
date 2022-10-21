@@ -49,21 +49,9 @@ export const LandingStyle = styled.section`
             }
 
         }
-        >p {
-            margin: 1rem;
-            color: #fff;
-            cursor: pointer;
-            font-size: 2rem;
-            font-weight: var(--fw-text);
-
-            background-color: var(--cll-primary);
-            border-radius: 1rem;
-            padding: .5rem;
-
-            &:hover{
-                background-color: var(--cll-primary-alt);
-                transition: .3s;
-            }
+        >button {
+            font-size: 2.5rem;
+            margin: 10px 0;
         }
 
         .social-content {
@@ -127,8 +115,9 @@ export const LandingStyle = styled.section`
                 }
 
             }
-            a {
+            button {
                 margin: 1rem 0;
+                font-size: 1.7rem;
             }
         }
     }
@@ -158,11 +147,9 @@ export const LandingStyle = styled.section`
                 }
 
             }
-            a {
+            button {
                 margin: 1rem 0;
-                width: 30rem;
-                height: 7rem;
-                font-size: 3rem;
+                font-size: 3.5rem;
             }
         }
 

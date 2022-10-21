@@ -3,64 +3,109 @@ import styled from "styled-components";
 export const ProjectStyle = styled.section`
 
     padding-top: var(--pt-section);
-    height: 100vh;
+    position: relative;
 
-    >div.cards {
+    .swiper-pagination-bullet-active {
+        background-color: #6e57e0;
+    }
+
+    .cards {
+        color: #6e57e0;
+        text-align: center;
+    }
+
+    .swiper-slide {
         display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin-bottom: 50px;
+        cursor: grab;
+        width: fit-content;
+    }
+    .busca_button {
+        width: 70px;
+        cursor: pointer;
+    }
 
-        .mySwiper {
-            height: 40rem;
-            padding: 1rem ;
+    .busca {
+        border-radius: 5px;
+        border: 1px solid #52006b;
+        width: 400px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 0 5px #0000004b;
+        position: absolute;
+        z-index: 2;
+        background-color: #F9F1FF;
+        top: 180px;
+        left: -400px;
+        transition: .4s ease;
 
+        &.active {
+            left: 140px;
+            transition: .4s;
+        }
+
+        span {
+            display: flex;
+            column-gap: 20px;
+            align-items: center;
+
+            button {
+                margin-bottom: 10px;
+                font-size: 1.5rem;
+                height: fit-content;                
+            }
+        }
+
+        h1 {
+            color: #6e57e0;
+            margin-bottom: 10px;
+        }
+
+    }
+    >button {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    @media (max-width: 425px) {
+        .busca_button {
+            width: 40px;
+        }
             
-            .swiper-button-next,
-            .swiper-button-prev {
-                color: var(--cll-primary);
-                font-weight: 600;
+        .busca {
+            width: 270px;
+            top: 250px;
+            
+            &.active {
+                left: 50px;
             }
-        }
-        
-        >div {
-            margin-left: 5rem;
-        }
-    }
-    @media (max-width: 800px) {
-        >div.cards {
 
-            .mySwiper {
+            span {
+                column-gap: 20px;
+                align-items: center;
 
-                
-                .swiper-button-next,
-                .swiper-button-prev {
-                    display: none;
+                button {
+                    margin-bottom: 10px;
+                    font-size: 1.5rem;
+                    height: fit-content;                
                 }
             }
+
+            h1 {
+                color: #6e57e0;
+                margin-bottom: 10px;
+            }
+
+        }
+        >button {
+            margin-left: 50px;
+            margin-top: 20px;
+            margin-bottom: 100px;
         }
     }
 
-    @media (max-width: 400px) {
-        >div.cards .mySwiper .swiper-slide div{
-            height: 23rem;
-            width: 15rem;
-            --padding: 1rem;
-            padding-top: 4rem;
-
-            h2{
-                font-size: var(--fs-title-mobile);
-
-                &:after {
-                    height: .2rem;
-                }
-            }
-            p{
-                font-size: var(--fs-text-mobile);
-            }
-
-            >div a {
-                font-size: var(--fs-text-mobile);
-                width: 6rem;
-            }
-        }
-    }
-    
 `;
