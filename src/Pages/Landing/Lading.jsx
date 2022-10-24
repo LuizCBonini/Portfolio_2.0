@@ -21,7 +21,7 @@ const Landing = () => {
     
     const copyToClipboard = () => {
         const copiado = 'lc.bonini13@gmail.com';
-        navigator.clipboard.writeText(copiado);
+        // navigator.clipboard.writeText(copiado);
         setShowAlert(true)
     }
     
@@ -31,7 +31,7 @@ const Landing = () => {
     
     useEffect(()=>{
         setShowAlert(showAlert)
-        if(showAlert == true) setTimeout(setFalseAlert, 2500);
+        if(showAlert == true) setTimeout(setFalseAlert, 3000);
     })
 
     return ( 

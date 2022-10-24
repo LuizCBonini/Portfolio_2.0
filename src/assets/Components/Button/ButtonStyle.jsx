@@ -14,6 +14,7 @@ export const ButtonStyled = styled.button`
     align-items: center;
     transition: .5s;
     box-shadow: -2px 5px 0 0 #5c47c7;
+    font-family: var(--ff-body);
 
     
     &:active {

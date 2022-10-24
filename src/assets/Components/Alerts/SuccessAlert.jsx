@@ -11,20 +11,20 @@ const BlurOutContract = keyframes`
     20%{
         transform:translateY(100px);
         transform: translate(-50%);
-        filter:blur(2px);
+        filter:blur(.01px);
         opacity: 1;
     }
-    80%{
+    95%{
         transform:translateY(100px);
         transform: translate(-50%);
-        filter:blur(2px);
+        filter:blur(.5px);
         opacity: 1;
     }
     100%{
         opacity:0;
         transform:translateY(0px);
         transform: translate(-50%);
-        filter:blur(.01px);
+        filter:blur(2px);
     }
 `;
 

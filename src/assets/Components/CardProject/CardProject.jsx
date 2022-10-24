@@ -34,8 +34,8 @@ const CardContainer = styled.div`
         width: 400px;
     }
 
-    @media (max-width: 375px) {
-        width: 360px;
+    @media (max-width: 380px) {
+        width: 345px;
     }
     @media (max-width: 320px) {
         height: 300px;
