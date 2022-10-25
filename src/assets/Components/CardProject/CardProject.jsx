@@ -136,14 +136,19 @@ const Info = styled.div`
 
     div {
         font-family: var(--ff-body);
-        background: rgba(27, 26, 26, 0.9);
+
+        background: rgba( 243, 230, 255, 0.25 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+
+
         transition: all 0.3s ease-out;
         transform: translateX(-100%);
         position: absolute;
         line-height: 1.8;
         text-align: left;
         font-size: 105%;
-        color: #FFF;
+        color: var(--cll-primary);
         height: 100%;
         width: 100%;
         left: 0;
@@ -151,6 +156,7 @@ const Info = styled.div`
 
         h2 {
             text-align: center;
+            background-color: #F9F1FF;
         }
 
         ul {
