@@ -21,7 +21,7 @@ const Landing = () => {
     
     const copyToClipboard = () => {
         const copiado = 'lc.bonini13@gmail.com';
-        // navigator.clipboard.writeText(copiado);
+        navigator.clipboard.writeText(copiado);
         setShowAlert(true)
     }
     
