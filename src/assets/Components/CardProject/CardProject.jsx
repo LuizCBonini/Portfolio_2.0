@@ -228,7 +228,7 @@ const CardProjects = (props) => {
                 <div>
                     <h2>Techs Utilizadas</h2>
                     <ul>
-                        <li><img src={props.TechIcon} alt="" /></li>
+                        <li><img src={props.TechIcon} alt={props.tech} /></li>
                     </ul>
                 </div>
             </Info>

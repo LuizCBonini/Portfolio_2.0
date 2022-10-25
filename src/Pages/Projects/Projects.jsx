@@ -14,23 +14,15 @@ import { Pagination } from "swiper";
 
 // SectionTitle criado para o reaproveitamento de código.
 import SectionTitle from '../../assets/Components/SectionTitle/SectionTitle';
-import Card from '../../assets/Components/Card/Card';
 
 // Imagens dos cards
-import HealthyMobile from '../../assets/img/Home.png'
 import HealthyFood from '../../assets/img/HealthyFood.png'
-
-import ChokoImage from '../../assets/img/chokolatte.png'
-
+import Alurapic from '../../assets/img/alurapic.png'
 import PortImage from '../../assets/img/PortfolioHome.png'
-
-import MenuCoffeeImage from '../../assets/img/Menucoffee.png'
-import TodoListImage from '../../assets/img/Todo.png'
-
-import BtcImage from '../../assets/img/READMEresponsivo.png'
 import Crypto from '../../assets/img/Crypto.png'
+import Memoteca from '../../assets/img/memoteca.png'
 
-import EmProduçãoImage from '../../assets/img/Emprodução.png'
+// Components:
 import CardProjects from '../../assets/Components/CardProject/CardProject';
 
 // SVGs
@@ -79,12 +71,32 @@ const Projects = () => {
       TechIcon: ReactImg,
       Image: HealthyFood
 
+    },
+    {
+      id: 4,
+      tech: 'Angular',
+      Titulo: "Alurapic",
+      Description: 'Projeto de um site para postagem de fotos criado na aula de Angular da Alura.',
+      LinkRepositorio: 'https://github.com/LuizCBonini/Alura-Angular',
+      LinkSite: '',
+      TechIcon: AngularImg,
+      Image: Alurapic
+
+    },
+    {
+      id: 5,
+      tech: 'Angular',
+      Titulo: "Memoteca",
+      Description: 'Projeto de um site para postagem de frases curtas, criado na aula de Angular da Alura.',
+      LinkRepositorio: 'https://github.com/LuizCBonini/Alura-Memoteca',
+      LinkSite: '',
+      TechIcon: AngularImg,
+      Image: Memoteca
+
     }
   ]
 
   const buscaProjeto = Projetos.filter((projeto) => projeto.tech.includes(busca));
-  const teste = buscaProjeto.length > 1 ? 2 : 1;
-  console.log(teste)
 
     return ( 
         <ProjectStyle id='projects'>
@@ -119,7 +131,7 @@ const Projects = () => {
 
                 <Swiper
                 // slidesPerView={buscaProjeto.length > 1 ? 2 : 1}
-                slidesPerView={buscaProjeto.length > 1 ? 'auto' : 1}
+                slidesPerView={buscaProjeto.length > 2 ? 'auto' : (buscaProjeto.length > 1 ? 2 : 1)}
                 spaceBetween={30}
                 loop={true}
                 loopFillGroupWithBlank={true}
