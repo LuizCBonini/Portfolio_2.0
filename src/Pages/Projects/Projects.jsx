@@ -78,7 +78,7 @@ const Projects = () => {
       Titulo: "Alurapic",
       Description: 'Projeto de um site para postagem de fotos criado na aula de Angular da Alura.',
       LinkRepositorio: 'https://github.com/LuizCBonini/Alura-Angular',
-      LinkSite: '',
+      LinkSite: 'https://alurapic.netlify.app/#/home',
       TechIcon: AngularImg,
       Image: Alurapic
 
@@ -131,8 +131,9 @@ const Projects = () => {
 
                 <Swiper
                 // slidesPerView={buscaProjeto.length > 1 ? 2 : 1}
-                slidesPerView={buscaProjeto.length > 2 ? 'auto' : (buscaProjeto.length > 1 ? 2 : 1)}
-                spaceBetween={30}
+                // slidesPerView={buscaProjeto.length > 2 ? 'auto' : (buscaProjeto.length > 1 ? 2 : 1)}
+                slidesPerView={'auto'}
+                spaceBetween={0}
                 loop={true}
                 loopFillGroupWithBlank={true}
                 pagination={{clickable: true}}

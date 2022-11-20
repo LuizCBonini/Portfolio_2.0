@@ -86,7 +86,7 @@ export const ContactStyle = styled.section`
 
 
             width: 100%;
-            max-width: 50%;
+            max-width: 40%;
 
             border: 1px solid #52006B;
             border-radius: 1rem;

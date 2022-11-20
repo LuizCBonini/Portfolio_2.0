@@ -51,7 +51,7 @@ export const LandingStyle = styled.section`
         }
         >button {
             font-size: 2.5rem;
-            margin: 10px 0;
+            margin: 30px 0 40px 0;
         }
 
         .social-content {
