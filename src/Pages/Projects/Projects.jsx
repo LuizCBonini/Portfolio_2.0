@@ -89,7 +89,7 @@ const Projects = () => {
       Titulo: "Memoteca",
       Description: 'Projeto de um site para postagem de frases curtas, criado na aula de Angular da Alura.',
       LinkRepositorio: 'https://github.com/LuizCBonini/Alura-Memoteca',
-      LinkSite: '',
+      LinkSite: 'https://memoteca.netlify.app',
       TechIcon: AngularImg,
       Image: Memoteca
 
